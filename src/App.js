@@ -1,24 +1,21 @@
-import logo from './logo.svg';
 import './App.css';
 
 function App() {
+  const data = "testbook"
+  const dat = "skill"
+  const da = "academy"
+  const d = "FSD"
+ 
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+    <p>{data}</p>
+    <p>{dat}</p>
+    <p>{da}</p>
+    <p>{d}</p>
+    <img src="http://source.unsplash.com/1200x800/?river" alt="" width="400px" />  
+    <p>{6+4}</p>
+   </>
+   
   );
 }
 
